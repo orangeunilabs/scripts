@@ -6,11 +6,11 @@ apt-get update && apt-get upgrade -y
 apt-get install curl -y
 
 # Install speedtest-cli
-curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | bash > /dev/null
-apt-get install speedtest -y > /dev/null
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | bash 
+apt-get install speedtest -y 
 
 # Install tailscale
-curl -fsSL https://tailscale.com/install.sh | sh > /dev/null
+curl -fsSL https://tailscale.com/install.sh | sh 
 
 # Install iperf3
-apt-get install iperf3 -y > /dev/null
+apt-get install iperf3 -y 

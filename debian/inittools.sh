@@ -1,6 +1,7 @@
 #!/bin/bash
 # This script sets up the tools I like on a new debian/ubuntu system.
 export DEBIAN_FRONTEND=noninteractive
+export NEEDRESTART_MODE=a
 
 apt-get update && apt-get upgrade -y
 

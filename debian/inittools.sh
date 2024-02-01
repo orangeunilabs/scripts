@@ -1,5 +1,6 @@
 #!/bin/bash
 # This script sets up the tools I like on a new debian/ubuntu system.
+export DEBIAN_FRONTEND=noninteractive
 
 apt-get update && apt-get upgrade -y
 
